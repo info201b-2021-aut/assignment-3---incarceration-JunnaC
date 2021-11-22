@@ -35,22 +35,22 @@ state_most_black_15to64
 state_most_white_15to64
 ```
 
-5.Which state has the highest number of black population in jail per day in 2018?
+5.Which state has the highest average number of black population in jail per day in 2018?
 ```{r, echo = F}
 state_most_black_jail
 ```
 
-6.Which state has the highest number of white population in jail per day in 2018?
+6.Which state has the highest average number of white population in jail per day in 2018?
 ```{r, echo = F}
 state_most_white_jail
 ```
 
-7.What is the highest number of black population in jail in 2018 in CA?
+7.What is the highest average number of black population in jail per day in CA in 2018?
 ```{r, echo = F}
 highest_black_jail_pop
 ```
 
-8.What is the highest number of white population in jail per day in 2018 in AZ?
+8.What is the highest average number of white population in jail per day in AZ in 2018?
 ```{r, echo = F}
 highest_white_jail_pop
 ```
@@ -68,7 +68,7 @@ time_trend
 ```
 
 ### Chart 1 Analysis:
-The reason why I make this chart is that I want to know the population changing trend in one county of CA and NY. I choose the location CA and NY based on the variables and choose one county from each state randomly to get a general conclusion. From the chart, we can see the population changing trends over time in Alameda County, CA and Albany County, NY, and I find that the black population in one county of CA decreased dramatically, and the black population in one county of NY increased steadily. From the variable "state_most_black_15to64" we know that In 2018, the state NY has the highest number of black population aged from 15 to 64. One county of NY shows an increasing number of black population with the time flow, and one county of CA shows the decreasing number of black population with the time flow. This explains that why NY has the highest number of black people: the black population in counties keeps increasing steadily. From the variable "state_most_white_15to64", one county in the state CA which has the highest number of white population aged from 15 to 64 shows the decreasing number of the black population in 2018. However, the state CA had the highest number of the black population in jail in 2018, which was calculated from the variable "state_most_black_jail". I try to find some relationships in the second chart.
+The reason why I make this chart is that I want to know the population changing trend in one county of CA and NY. I choose the location CA and NY based on the variables and choose one county from each state randomly to get a general conclusion. From the chart, we can see the population changing trends over time in Alameda County, CA and Albany County, NY, and I find that the black population in one county of CA decreased dramatically, and the black population in one county of NY increased steadily. From the variable "state_most_black_15to64" we know that In 2018, the state NY has the highest number of black population aged from 15 to 64. One county of NY shows an increasing number of black population with the time flow, and one county of CA shows the decreasing number of black population with the time flow. This explains that why NY has the highest number of black people: the black population in counties keeps increasing steadily. From the variable "state_most_white_15to64", one county in the state CA which has the highest number of white population aged from 15 to 64 shows the decreasing number of the black population in 2018. However, the state CA had the highest average number of the black population in jail per day in 2018, which was calculated from the variable "state_most_black_jail". I try to find some relationships in the second chart.
 
 
 
@@ -79,7 +79,7 @@ var_compare
 ```
 
 ### Chart 2 Analysis:
-In this chart, I compare the black population (age from 15 to 64) and the average number of the black population in jail in Albany County, NY. The reason why I make this chart is that I want to know is there any relationship between the black population (age from 15 to 64) and the average number of the black population in jail in Albany County, NY. Based on this chart, as the black population increase, the black population in jail decreases slightly. However, the relationship between the black population (age from 15 to 64) and the average number of the black population in jail per day is not exactly negative. There is a trend that as the black population is at the lowest and the highest number, the average number of the black population in jail is relatively low. So, this chart shows that increasing the number of the black population does not mean the increasing average number of the black population in jail. 
+In this chart, I compare the black population (age from 15 to 64) and the average number of the black population in jail per day in Albany County, NY. The reason why I make this chart is that I want to know is there any relationship between the black population (age from 15 to 64) and the average number of the black population in jail per day in Albany County, NY. Based on this chart, as the black population increase, the black population in jail decreases slightly. However, the relationship between the black population (age from 15 to 64) and the average number of the black population in jail per day is not exactly negative or positive. There is a trend that as the black population is at the lowest and the highest number, the average number of the black population in jail is relatively low. So, this chart shows that increasing the number of the black population does not mean the increasing average number of the black population in jail per day. 
 
 
 

@@ -51,7 +51,7 @@ state_most_white_15to64 <- incarceration_trends %>%
   pull(state)
 state_most_white_15to64#CA
 
-#5.Which state has the highest number of black population in jail per day in 2018?
+#5.Which state has the highest average number of black population in jail per day in 2018?
 #black_jail_pop, state
 state_most_black_jail <- incarceration_trends %>%
   filter(year == 2018) %>%
@@ -59,7 +59,7 @@ state_most_black_jail <- incarceration_trends %>%
   pull(state)
 state_most_black_jail#CA
 
-#6.Which state has the highest number of white population in jail per day in 2018?
+#6.Which state has the highest average number of white population in jail per day in 2018?
 #white_jail_pop, state
 state_most_white_jail <- incarceration_trends %>%
   filter(year == 2018) %>%
@@ -67,7 +67,7 @@ state_most_white_jail <- incarceration_trends %>%
   pull(state)
 state_most_white_jail#AZ
 
-#7.What is the highest number of black population in jail per day in 2018 in CA?
+#7.What is the highest average number of black population in jail per day in CA in 2018?
 #black_jail_pop, state
 highest_black_jail_pop <- incarceration_trends %>%
   filter(year == 2018) %>%
@@ -76,7 +76,7 @@ highest_black_jail_pop <- incarceration_trends %>%
   pull()
 highest_black_jail_pop#5024
 
-#8.What is the highest number of white population in jail per day in 2018 in AZ?
+#8.What is the highest average number of white population in jail per day in AZ in 2018?
 #white_jail_pop, state
 highest_white_jail_pop <- incarceration_trends %>%
   filter(year ==2018) %>%
@@ -128,7 +128,7 @@ time_trend
 #One county of NY shows an increasing number of black population with the time flow, and one county of CA shows the decreasing number of black population with the time flow.
 #This explains that why NY has the highest number of black people: the black population in counties keeps increasing steadily.
 #From the variable "state_most_white_15to64", one county in the state CA which has the highest number of white population aged from 15 to 64 shows the decreasing number of the black population in 2018.
-#However, the state CA had the highest number of the black population in jail in 2018, which was calculated from the variable "state_most_black_jail".
+#However, the state CA had the highest average number of the black population in jail per day in 2018, which was calculated from the variable "state_most_black_jail".
 #I try to find some relationships in the second chart.
 
 
@@ -147,12 +147,12 @@ var_compare <-ggplot(incarceration_trends4, aes(x=black_pop_15to64, y=black_jail
   labs(title="Relationship between Black Population (age from 15 to 64) & Daily Black Population in jail, in Albany County, NY",  x="Black Population (age from 15 to 64)", y = "Black Population in Jail / Day (average)")
 var_compare
 #Chart 2 Analysis:
-#In this chart, I compare the black population (age from 15 to 64) and the average number of the black population in jail in Albany County, NY.
-#The reason why I make this chart is that I want to know is there any relationship between the black population (age from 15 to 64) and the average number of the black population in jail in Albany County, NY.
+#In this chart, I compare the black population (age from 15 to 64) and the average number of the black population in jail per day in Albany County, NY.
+#The reason why I make this chart is that I want to know is there any relationship between the black population (age from 15 to 64) and the average number of the black population in jail per day in Albany County, NY.
 #Based on this chart, as the black population increase, the black population in jail decreases slightly.
-#However, the relationship between the black population (age from 15 to 64) and the average number of the black population in jail per day is not exactly negative.
+#However, the relationship between the black population (age from 15 to 64) and the average number of the black population in jail per day is not exactly negative or positive.
 #There is a trend that as the black population is at the lowest and the highest number, the average number of the black population in jail is relatively low.
-#So, this chart shows that increasing the number of the black population does not mean the increasing average number of the black population in jail. 
+#So, this chart shows that increasing the number of the black population does not mean the increasing average number of the black population in jail per day. 
 
 
 
