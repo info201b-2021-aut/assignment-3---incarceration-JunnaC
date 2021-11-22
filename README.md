@@ -3,4 +3,4 @@ In this assignment, you'll create the necessary files to perform the analysis de
 
 Once you have completed your report, make sure to **change your repository settings** so that you can view the hosted website (which will be available at https://ORGANIZATION_NAME.github.io/REPO_NAME)
 
-file:///C:/Users/86136/Documents/assignment-3---incarceration-JunnaC/a3.html
+The page: https://info201b-2021-aut.github.io/assignment-3---incarceration-JunnaC/
