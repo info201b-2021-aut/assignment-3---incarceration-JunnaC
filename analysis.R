@@ -11,7 +11,7 @@ View(incarceration_trends)
 
 # Introduction & Variable----------------------------------------------------
 #Introduction
-#In this report, the problem domain mainly focuses on the black population age from 15 to 64, and the number of the black population in jail, by using data and variables about the white to compare with the black population. 
+#In this report, the problem domain mainly focuses on the black population age from 15 to 64, and the number of the black population in jail, comparing by using data and variables about the white. 
 #In the variables part, I limit the time in year 2018 and calculate the number of the highest population of the white and the black, the state has the highest population of the black and the white, the state has the highest black and white population, the number of population in jail in 2018.
 #I want to find the trends of population number changing over time in some specific locations, and the relationship between the population number and the population in jail.
 #I narrow the data into the counties and compare the data from counties of different states to get usable conclusions.
